@@ -14,4 +14,4 @@ def solution(p: float, x: np.array) -> tuple:
     alpha = 1 - p
     alpha = 1 - p
     return 2/(17**2)*(expon.ppf(alpha / 2) + x.mean() - 1.5), \
-           2/(17**2)*(expon.ppf(1 - alpha / 2) + x.mean() - 3)
+           2/(17**2)*(expon.ppf(1 - alpha / 2) + x.mean() - 4)
